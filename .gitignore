@@ -1,0 +1,16 @@
+# Ignore compiled C files
+*.o
+*.exe
+*.out
+
+# Ignore backup and temporary files
+*~
+*.tmp
+*.log
+
+# Ignore editor and system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore the archive folder
+archive/

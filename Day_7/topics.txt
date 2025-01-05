@@ -1,0 +1,1 @@
+Structures and Unions, Difference between structures and arrays, Typedef and Enumerations. Recap of Day 6.

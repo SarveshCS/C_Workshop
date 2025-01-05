@@ -1,0 +1,1 @@
+Data types in C, Variables, Constants, Basic input/output functions, Operators in C. Recap of Day 1.
