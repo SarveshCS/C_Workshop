@@ -4,6 +4,7 @@ void main(){
 	int n, i, sum = 0;
 	printf("Enter n: ");
 	scanf("%d", &n);
+	// printf("%d\n", n*(n+1)/2);
 	for (i = 1; i <= n; i++){
 		sum = sum + i;
 	}
