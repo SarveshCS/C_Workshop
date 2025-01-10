@@ -26,11 +26,11 @@ void main(){
         printf("Subtraction: %.0lf", rec(l+=10, u+=10, op));
     }
     else if (n <= 30 && n>=21 ){
-        l = 21; u = 30; op = 2;
+        op = 2;
         printf("Multiplication: %.0lf", rec(l+=20, u+=20, op));
     }
     else if (n <= 40 && n>=31 ){
-        l = 31; u = 40; op = 3;
+        op = 3;
         printf("Division: %le", rec(l+=30, u+=30, op));
     }
 }
