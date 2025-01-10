@@ -12,7 +12,7 @@ void fibonacci(int n){
 }
 
 void main(){
-    int n, i;
+    int n;
     printf("How many fibonacci numbers do you want? ");
     scanf("%d", &n);
     fibonacci(n);
