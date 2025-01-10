@@ -9,7 +9,7 @@
 *~
 *.tmp
 *.log
-
+*.old
 # Ignore editor and system-specific files
 .vscode
 .DS_Store
