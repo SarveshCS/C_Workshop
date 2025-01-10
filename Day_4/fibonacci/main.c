@@ -1,7 +1,7 @@
 // Program to print factorial of a number
 #include<stdio.h>
 
-void fact(int n){
+void fibonacci(int n){
     int i, c, a = 0, b = 1;
     for (i = 1; i <= n; i++){
         printf("%d ", a);
@@ -15,5 +15,5 @@ void main(){
     int n, i;
     printf("How many fibonacci numbers do you want? ");
     scanf("%d", &n);
-    fact(n);
+    fibonacci(n);
 }
