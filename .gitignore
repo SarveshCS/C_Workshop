@@ -11,6 +11,7 @@
 *.log
 *.old
 *.py
+*__tmp.c
 
 # Ignore editor and system-specific files
 .vscode
