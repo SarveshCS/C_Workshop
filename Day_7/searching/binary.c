@@ -40,18 +40,17 @@ void main(){
     h = n-1;
     mid = (l+h)/2;
 
-    while (l < h) {
+    while (l <= h) {
         if (arr[mid] == key){
             res = mid;
             break;
         }
         else if (arr[mid] > key){
             l = mid+1;
-            mid = (l+h)/2;
         }else{
             h = mid-1;
-            mid = (l+h)/2;
         }
+        mid = (l+h)/2;
     }
 
     if (res){
