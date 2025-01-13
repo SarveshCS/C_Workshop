@@ -23,10 +23,10 @@ void main(){
 
     // Matrix-like format
     for (i = 0; i < n; i++){
-        printf("[");
+        printf("[ ");
         for (j = 0; j < m; j++){
             printf("%d ", arr[i][j]);
         }
-        printf("\b]\n");
+        printf("\b ]\n");
     }
 }
