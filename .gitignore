@@ -13,6 +13,7 @@
 *.py
 *__tmp.c
 *__tmp.cpp
+*.cpp
 
 # Ignore editor and system-specific files
 .vscode
