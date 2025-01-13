@@ -38,9 +38,10 @@ void main(){
     int l, h, mid;
     l = 0;
     h = n-1;
-    mid = (l+h)/2;
 
     while (l <= h) {
+        mid = (l+h)/2;
+
         if (arr[mid] == key){
             res = mid;
             break;
@@ -50,7 +51,6 @@ void main(){
         }else{
             h = mid-1;
         }
-        mid = (l+h)/2;
     }
 
     if (res){
