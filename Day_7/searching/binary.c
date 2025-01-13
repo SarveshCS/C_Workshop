@@ -18,12 +18,29 @@ void main(){
     printf("Enter the number to search: ");
     scanf("%d", &key);
 
+    int tmp, j;
+    for(i = 0; i < n-1; i++){
+        for(j = 0; j < n-1; j++){
+            if (arr[j] > arr[j+1]){
+                tmp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = tmp;
+            }
+        }
+    }
+
+    printf("Sorted array : [");
+    for (i = 0; i < n; i++){
+        printf("%d, ", arr[i]);
+    }
+    printf("\b\b]\n");
+
     int l, h, mid;
     l = 0;
     h = n-1;
     mid = (l+h)/2;
 
-    for (i = 0; i < n; i++){
+    while (l < h) {
         if (arr[mid] == key){
             res = mid;
             break;
@@ -31,7 +48,7 @@ void main(){
         else if (arr[mid] > key){
             l = mid+1;
             mid = (l+h)/2;
-        }else if (arr[mid] < key){
+        }else{
             h = mid-1;
             mid = (l+h)/2;
         }
