@@ -30,8 +30,10 @@ void main(){
         }
         else if (arr[mid] > key){
             l = mid+1;
+            mid = (l+h)/2;
         }else if (arr[mid] < key){
             h = mid-1;
+            mid = (l+h)/2;
         }
     }
 
