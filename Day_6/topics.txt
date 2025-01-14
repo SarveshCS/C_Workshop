@@ -1,1 +1,0 @@
-Pointers: Basics, Pointer arithmetic, Dynamic memory allocation. Practical problems on pointers.
