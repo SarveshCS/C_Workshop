@@ -1,15 +1,13 @@
-// strcpy()
-
+// strcpy(c, str)
 #include<stdio.h>
 
 void main(){
-    int i = 0, c = 0;
+    int i = 0;
     printf("Enter the string: ");
-    char str[100];
+    char str[100], c[100];
     scanf("%s", &str);
-    while (str[i] != '\0'){
-        c++;
-        i++;
+    for (i=0; str[i]!='\0'; i++){
+        c[i] = str[i];
     }
-    printf("Length of string: %d", c);
+    printf("Copied string: %s", c);
 }
